@@ -1,7 +1,7 @@
 import React from "react";
 import { Link , Route , useHistory} from "react-router-dom";
 import { useState } from "react";
-import {createDeck} from "../utils/api/index.js"
+import {createDeck} from "../../utils/api/index.js"
 import DeckForm from "./DeckForm.js"
 
 

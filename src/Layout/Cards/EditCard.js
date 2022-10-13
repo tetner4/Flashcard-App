@@ -1,5 +1,5 @@
 import React, { useEffect , useState} from "react";
-import {readCard, updateCard, readDeck} from "../utils/api/index.js";
+import {readCard, updateCard, readDeck} from "../../utils/api/index.js";
 import { useParams , Link , useHistory } from "react-router-dom";
 import CardForm from "./CardForm";
 
